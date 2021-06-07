@@ -15,6 +15,7 @@ class _MyServiceState extends State<MyService> {
   // Field
   String url =
       'http://w3c.senate.go.th/dbrulessenate/search_senate2562.php?kw=';
+      
   List<DataModel> dataModels = List();
   String search = '';
   final formKey = GlobalKey<FormState>();
